@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Background color fills entire page */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 2rem;
+    /* Remove background-color from here */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.widget {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+}
+h1, h2 {
+    text-align: center;
+}
+.number {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 20px;
+}
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"], input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #45a049;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.review {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.response {
+    font-style: italic;
+    margin-top: 5px;
+    color: #888;
+}
+.action-buttons {
+    margin-top: 10px;
+}
+.report {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px;
+}
+.report h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.report-buttons {
+    text-align: center;
+}
+.report-buttons input[type="button"] {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.report-buttons input[type="button"]:hover {
+    background-color: #45a049;
+}
+.notification {
+    background-color: #2196F3;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.content-management {
+    margin-top: 20px;
+}
+.content-management h2 {
+    margin-bottom: 10px;
+}
+.settings {
+    margin-top: 20px;
+}
+.settings h2 {
+    margin-bottom: 10px;
+}

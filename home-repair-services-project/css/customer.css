@@ -1,0 +1,206 @@
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-image: url('C:/Users/nepha/Downloads/logo.png.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+               }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .search-bar {
+            background: #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .promotions {
+            display: flex;
+    flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .promo {
+            background: #fff;
+           margin-bottom: 20px;
+            padding: 20px;
+            text-align: center;
+           
+        }
+
+        .categories {
+            background: #eee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .category {
+            margin: 20px;
+        }
+
+        .cta-buttons {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .testimonials {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .testimonial {
+            margin: 20px;
+        }
+
+        .providers {
+            background: #eee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .provider {
+            margin: 20px;
+        }
+
+        .service-area {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact {
+            background: #eee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .faqs {
+            background: #eee;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social {
+            background: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .trust-badges {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .languages {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .signup-form,
+        .login-form {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        form input,
+        form button {
+            margin: 5px;
+            padding: 10px;
+            width: 80%;
+            display: block;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        ul li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+
+	#booking-form {
+  	border: 1px solid red;
+  	padding: 20px;
+  	margin-bottom: 20px;
+	}
+
+
+	#cart {
+  	border: 1px solid red;
+  	padding: 20px;
+  	margin-bottom: 20px;
+	}
+
+
+	#payment {
+  	border: 1px solid red;
+  	padding: 20px;
+ 	 margin-bottom: 20px;
+	}
+
+
+	.notification {
+  	background-color: green;
+  	border: 1px solid green;
+  	padding: 10px;
+  	margin-bottom: 20px;
+		}

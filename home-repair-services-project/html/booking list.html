@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Booking Management</h2>
+        <h3>Booking Requests</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Service</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="bookingList">
+                <tr>
+                    <td>ynw melly</td>
+                    <td>Plumbing</td>
+                    <td>2024-02-12</td>
+                    <td>09:00 AM</td>
+                    <td class="status">Pending</td>
+                    <td><input type="button" value="Approve" onclick="approveBooking(this)"><input type="button" value="Reject" onclick="rejectBooking(this)"></td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

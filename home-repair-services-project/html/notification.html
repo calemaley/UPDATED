@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h4>Notification</h4>
+        </div>
+        <div class="dashboard-body">
+        <h2>Notification System</h2>
+        <form id="notificationForm">
+            <textarea placeholder="Enter notification message..." id="notificationMessage" rows="4"></textarea>
+            <select id="recipientType">
+                <option value="customer">Customer</option>
+                <option value="provider">Service Provider</option>
+            </select>
+            <input type="submit" value="Send Notification">
+        </form>
+    </div>
+    
+    <div id="notifications">
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+
+.dashboard-body{
+    display: flex;
+    flex-wrap: wrap;
+    height: -webkit-fill-available;
+}
+
+.widget{
+    margin : 1rem;
+}
+
+.report-buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.report-button{
+   margin : 1rem;
+}
+
+.payment-button{
+    margin : 1rem;
+ }
